@@ -1,0 +1,10 @@
+{
+	"Nikon": {
+		"series": "Nikkor",
+		"lens_mount": "FX, DX"
+	}
+	"Canon": {
+		"series": "L",
+		"lens_mount": "EF, EF-S"
+	}
+}

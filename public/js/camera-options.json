@@ -1,0 +1,12 @@
+{
+	"Nikon": {
+		"sensor_size_name": "Full Frame, Crop Sensor (Nikon)",
+		"sensor_size_equiv" : "1.0, 1.5",
+		"lens_mount": "FX, DX"
+	}
+	"Canon": {
+		"sensor_size_name": "Full Frame, Crop Sensor (Canon)",
+		"sensor_size_equiv" : "1.0, 1.6",
+		"lens_mount": "EF, EF-S"
+	}
+}

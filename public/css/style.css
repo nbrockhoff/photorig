@@ -1,0 +1,137 @@
+/*
+ * Globals
+ */
+h1, h2, h3, h4, h5, h6, small {
+  font-family:'Cormorant Garamond', serif;
+}
+
+small {
+  font-style: italic;
+}
+.card h1, .card h2, .card h3 {
+  font-family: 'Helvetica Neue', Sans-serif;
+}
+
+.navbar-brand {
+  font-family:'EB Garamond', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navbar-brand .alt {
+  font-weight: lighter;
+  font-style: italic;
+  text-transform: lowercase;
+
+}
+
+.cover-heading {
+  text-transform: uppercase;
+}
+
+.lead {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+html  {
+  height: 100%;
+}
+#homepage {
+  background-image: url('https://images.pexels.com/photos/593324/pexels-photo-593324.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb');
+  background-size: cover;
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  transform: translateY(50%);
+  display: table;
+  width: 80%;
+  margin: 0 auto;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .7);
+  padding: 20px 0;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+
+/*
+ * Affix and center
+ */
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 42rem;
+  }
+}
